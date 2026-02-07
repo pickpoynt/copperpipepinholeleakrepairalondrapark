@@ -1,55 +1,55 @@
-import { Shield, ClipboardCheck, Clock, MapPin, Building2, Award, CheckCircle2 } from "lucide-react";
+import { Shield, Microscope, MapPin, Building2, ClipboardCheck, Zap, Award, CheckCircle2 } from "lucide-react";
 
 const reasons = [
   {
     icon: Award,
-    title: "CWS FOG Specialists",
-    description: "We are deeply familiar with the Charleston Water System (CWS) FOG program and ensure all reporting is handled correctly to avoid fines."
+    title: "Triangle Repipe Experts",
+    description: "We have successfully repiped thousands of homes in Raleigh, Cary, and Apex, specifically focusing on the peculiar failure points of Poly-B."
   },
   {
-    icon: CheckCircle2,
-    title: "Clean Kitchen Focus",
-    description: "Grease trap maintenance is vital for a sanitary environment. Our team uses specialized equipment to minimize odors and mess."
+    icon: Microscope,
+    title: "Non-Invasive Process",
+    description: "We use surgical precision to make minimal drywall cuts, ensuring your Raleigh home remains livable throughout the 3-day repipe process."
   },
   {
     icon: Building2,
-    title: "Restaurant Ready",
-    description: "We work around your schedule—performing pumping during off-peak hours to avoid any disruption to your customers' dining experience."
+    title: "PEX-A Only",
+    description: "We only use premium PEX-A piping, the most durable and flexible option available, ensuring your Raleigh investment is protected for decades."
   },
   {
     icon: ClipboardCheck,
-    title: "Certified Tracking",
-    description: "Every pump is documented. We provide you with precise waste tracking logs required for health department inspections."
+    title: "Permit & Inspection Ready",
+    description: "Every job is fully permitted through the City of Raleigh or Wake County, with a final plumbing inspection required for your peace of mind."
   },
   {
-    icon: Clock,
-    title: "Reliable Scheduling",
-    description: "Never miss a cleaning date again. Our automated scheduling system ensures your traps are serviced exactly when needed."
+    icon: Shield,
+    title: "Insurance Approved",
+    description: "Our certified repipe documentation is recognized by all major North Carolina insurers, often lead to significant premium reductions."
   },
   {
     icon: MapPin,
-    title: "Lowcountry Local",
-    description: "Born and bread in Charleston. We serve the peninsula, Mount Pleasant, West Ashley, James Island, and beyond."
+    title: "Local Raleigh Focus",
+    description: "We are born and raised Raleigh locals. From North Hills to Brier Creek, we know the local codes and common neighborhood builds."
   }
 ];
 
 const stats = [
-  { number: "100%", label: "Compliance Rate" },
-  { number: "24/7", label: "Support" },
-  { number: "500+", label: "Local Clients" },
-  { number: "Certified", label: "SC Hauler" }
+  { number: "2500+", label: "Raleigh Repipes" },
+  { number: "3-Days", label: "Average Time" },
+  { number: "100%", label: "PEX-A Used" },
+  { number: "Licensed", label: "In NC" }
 ];
 
 const WhyUs = () => {
   return (
-    <section id="about" className="py-20 bg-slate-50">
+    <section id="why-us" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Charleston's Trusted Partner in Grease Management
+            Raleigh's Highest Rated Repipe Specialists
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Running a kitchen is hard enough—let us handle the FOG compliance. We provide the most reliable grease trap services in the Lowcountry.
+            Choose the team that Raleigh homeowners trust. We specialize in turning a stressful pipe failure into a permanent, high-value plumbing upgrade.
           </p>
         </div>
 

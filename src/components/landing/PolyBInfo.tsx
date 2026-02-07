@@ -1,112 +1,99 @@
-import { AlertTriangle, Home, FileText, CheckCircle, Flame, Droplet } from "lucide-react";
-
-const infoData = [
-    {
-        icon: AlertTriangle,
-        title: "Identifying Poly-B",
-        description: "Look for grey, blue, or black flexible plastic pipes. They are often stamped with 'PB2110'. The fittings are usually grey plastic or copper.",
-    },
-    {
-        icon: Droplet,
-        title: "Why They Fail",
-        description: "Chlorine and other oxidants in city water react with the polybutylene, causing it to become brittle and crack from the inside out.",
-    },
-    {
-        icon: Flame,
-        title: "Better Materials",
-        description: "We use PEX-A (Uponor), which expands to freeze without bursting and resists corrosion, or Type L Copper for superior durability.",
-    },
-];
-
-const benefitsData = [
-    "Restore full insurability",
-    "Eliminate burst pipe anxiety",
-    "Increase resale value",
-    "Clean, safe drinking water",
-    "Professional drywall patching",
-    "25-year transferrable warranty",
-];
+import { ShieldCheck, Waves, Activity, AlertTriangle, MapPin, Search } from "lucide-react";
 
 const PolyBInfo = () => {
+    const signs = [
+        {
+            icon: Search,
+            title: "Identifying the Threat",
+            description: "Polybutylene pipes are usually grey or black and were installed in Raleigh homes primarily between 1978 and 1995. Check around your water heater or main shut-off valve."
+        },
+        {
+            icon: Waves,
+            title: "Internal Degradation",
+            description: "Chemicals in Raleigh's municipal water supply cause Poly-B to become brittle from the inside out. A pipe can look perfect on the outside while being ready to burst."
+        },
+        {
+            icon: AlertTriangle,
+            title: "Insurance Red Flags",
+            description: "If you have Poly-B in your Raleigh home, your insurance carrier may drop you or refuse coverage for water damage. A repipe is often the only way to regain eligibility."
+        },
+        {
+            icon: Activity,
+            title: "Micro-Cracks vs Blowouts",
+            description: "Poly-B rarely leaks slowly. They tend to burst suddenly at the joints or where the plastic has become thinned due to internal chemical stress."
+        }
+    ];
+
+    const raleighNeighborhoods = [
+        {
+            icon: MapPin,
+            title: "High-Risk Raleigh Areas",
+            description: "Many planned communities in North Raleigh, Cary, and Apex built in the 80s and 90s are now at the critical 'failure age' for Polybutylene systems."
+        },
+        {
+            icon: ShieldCheck,
+            title: "The PEX Solution",
+            description: "Our Raleigh repipe process replaces every inch of Poly-B with modern PEX-A. It's flexible, doesn't corrode, and is significantly more resistant to North Carolina's occasional hard freezes."
+        }
+    ];
+
     return (
-        <section id="polyb-info" className="py-24 bg-gradient-hero">
+        <section id="polyb-info" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
             <div className="container mx-auto px-4">
-                <div className="text-center max-w-3xl mx-auto mb-16">
-                    <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-                        Know The Risks
-                    </span>
-                    <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-                        Understanding the Polybutylene Hazard
-                    </h2>
-                    <p className="text-primary-foreground/80 text-lg">
-                        Dubbed "the ticking time bomb" of plumbing, these pipes were installed in millions of homes.
-                        If your Chesapeake home was built between 1978 and 1995, you likely have them.
-                    </p>
-                </div>
+                <div className="max-w-4xl mx-auto">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 capitalize leading-tight">
+                            Raleigh's Guide to <span className="text-blue-600">Polybutylene Risks</span>
+                        </h2>
+                        <p className="text-xl text-slate-600 leading-relaxed shadow-sm p-4 bg-white/50 rounded-xl border border-blue-100">
+                            If your Raleigh home was built in the late 70s through the mid-90s, you likely have Polybutylene plumbing. Don't wait for a $50k flood to address the issue. Our certified repipe process is the permanent solution.
+                        </p>
+                    </div>
 
-                {/* Info Cards */}
-                <div className="grid md:grid-cols-3 gap-8 mb-16">
-                    {infoData.map((info, index) => (
-                        <div
-                            key={index}
-                            className="bg-card rounded-xl p-8 shadow-lg border border-border hover:border-copper/30 transition-all duration-300"
-                        >
-                            <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center mb-6">
-                                <info.icon className="w-7 h-7 text-copper" />
+                    <div className="grid md:grid-cols-2 gap-8 mb-16">
+                        {signs.map((item, idx) => (
+                            <div key={idx} className="bg-white p-8 rounded-2xl shadow-xl border border-slate-100 hover:border-blue-300 transition-all duration-300 group">
+                                <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors shadow-inner">
+                                    <item.icon className="w-7 h-7 text-blue-600 group-hover:text-white" />
+                                </div>
+                                <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">{item.title}</h3>
+                                <p className="text-slate-600 leading-relaxed">{item.description}</p>
                             </div>
-                            <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                                {info.title}
-                            </h3>
-                            <p className="text-muted-foreground leading-relaxed">
-                                {info.description}
-                            </p>
-                        </div>
-                    ))}
-                </div>
-
-                {/* Two Column Content */}
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    <div className="bg-card rounded-2xl p-8 lg:p-10 shadow-xl border border-border">
-                        <div className="flex items-center gap-3 mb-6">
-                            <FileText className="w-8 h-8 text-copper" />
-                            <h3 className="text-2xl font-heading font-bold text-foreground">
-                                Insurance Implications
-                            </h3>
-                        </div>
-                        <p className="text-muted-foreground mb-6 leading-relaxed">
-                            Many major insurance providers in Virginia (like State Farm, Allstate, and others)
-                            add surcharges or completely exclude water damage coverage for homes with known Poly-B plumbing.
-                        </p>
-                        <p className="text-muted-foreground leading-relaxed">
-                            Replacing your pipes is often the only way to secure a standard homeowners policy
-                            at a competitive rate. We provide the certification letters insurers need.
-                        </p>
+                        ))}
                     </div>
 
-                    <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
-                        <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-                            Benefits of Repiping
-                        </h3>
-                        <ul className="space-y-4">
-                            {benefitsData.map((benefit, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <CheckCircle className="w-6 h-6 text-copper flex-shrink-0 mt-0.5" />
-                                    <span className="text-primary-foreground/90 text-lg">
-                                        {benefit}
-                                    </span>
-                                </li>
-                            ))}
-                        </ul>
+                    <div className="bg-slate-900 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden shadow-2xl">
+                        <div className="relative z-10">
+                            <h3 className="text-2xl md:text-3xl font-heading font-bold mb-8">Raleigh Repipe Considerations</h3>
+                            <div className="grid md:grid-cols-2 gap-12">
+                                {raleighNeighborhoods.map((factor, idx) => (
+                                    <div key={idx} className="space-y-4">
+                                        <div className="flex items-center gap-3">
+                                            <factor.icon className="w-6 h-6 text-blue-400" />
+                                            <h4 className="text-lg font-bold">{factor.title}</h4>
+                                        </div>
+                                        <p className="text-slate-400 leading-relaxed italic border-l-2 border-blue-500 pl-4">
+                                            {factor.description}
+                                        </p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                        {/* Abstract NC State Outline or Map Graphic */}
+                        <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/5 rounded-full blur-3xl" />
                     </div>
-                </div>
 
-                {/* Bottom CTA */}
-                <div className="mt-16 text-center">
-                    <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
-                        <Home className="w-6 h-6 text-copper" />
-                        <span className="text-primary-foreground font-medium text-lg">
-                            Secure your home's future. Call (877) 792-1410 for an inspection.
-                        </span>
+                    <div className="mt-16 bg-blue-600 rounded-3xl p-8 md:p-10 text-center text-white shadow-2xl">
+                        <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">Protect Your Raleigh Investment</h3>
+                        <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+                            A whole-house repipe increases property value and ensures long-term peace of mind. Call our Raleigh experts today for a free on-site assessment.
+                        </p>
+                        <a
+                            href="tel:8777921410"
+                            className="inline-flex items-center gap-3 bg-white text-blue-900 px-8 py-4 rounded-2xl font-bold text-xl hover:bg-blue-50 transition-all hover:scale-105 shadow-xl"
+                        >
+                            Call (877) 792-1410
+                        </a>
                     </div>
                 </div>
             </div>
@@ -115,5 +102,3 @@ const PolyBInfo = () => {
 };
 
 export default PolyBInfo;
-
-

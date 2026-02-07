@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Phone, Menu, X, Filter } from "lucide-react";
+import { Phone, Menu, X, ShieldAlert } from "lucide-react";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,7 +16,7 @@ const Header = () => {
 
   const navLinks = [
     { name: "Services", href: "#services" },
-    { name: "FOG Compliance", href: "#grease-trap-info" },
+    { name: "Poly-B Hazards", href: "#polyb-info" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
   ];
@@ -31,14 +31,14 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${isScrolled ? "bg-blue-600" : "bg-white"}`}>
-              <Filter className={`w-6 h-6 ${isScrolled ? "text-white" : "text-blue-600"}`} />
+              <ShieldAlert className={`w-6 h-6 ${isScrolled ? "text-white" : "text-blue-600"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-xl block leading-none ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Charleston
+                Raleigh
               </span>
               <span className={`text-sm font-medium ${isScrolled ? "text-blue-600" : "text-blue-100"}`}>
-                Grease Trap Pros
+                Polybutylene Experts
               </span>
             </div>
           </div>

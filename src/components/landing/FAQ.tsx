@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "How often does a grease trap need to be cleaned in Charleston?",
-    answer: "Charleston Water System (CWS) and other local municipalities typically require a 90-day cleaning cycle. However, if your trap reaches 25% capacity (grease and solids) before the 90-day mark, it must be pumped sooner to remain compliant."
+    question: "How do I know if my Raleigh home has Polybutylene pipes?",
+    answer: "Step 1: Look at the pipes coming into your water heater or main shut-off. If they are grey, black, or blue plastic (not copper or PEX), they are likely Poly-B. Step 2: Check your home's build date—if it's between 1978 and 1995 in Raleigh, Poly-B was incredibly common."
   },
   {
-    question: "What is the '25% rule' and why does it matter?",
-    answer: "The 25% rule states that the total volume of grease and solids in a trap cannot exceed 25% of the total capacity. Beyond this point, the interceptor loses its efficiency, allowing fats and oils to enter the public sewer system, which can result in heavy surcharges and fines."
+    question: "Why are Polybutylene pipes considered a disaster in Raleigh?",
+    answer: "Polybutylene reacts with the oxidants found in Raleigh's municipal water supply, causing it to flake and become brittle internally. This 'unseen' degradation leads to sudden, massive pipe bursts that can flood entire floors in minutes."
   },
   {
-    question: "Do you provide the compliance manifest for CWS?",
-    answer: "Yes. After every cleaning, we provide a waste manifest and a certificate of compliance. We maintain these records digitally so you can easily present them to health inspectors or utility representatives during audits."
+    question: "Will my Raleigh insurance company cover Poly-B leaks?",
+    answer: "Many North Carolina insurance carriers now include 'Polybutylene exclusions' in their policies. Some will refuse to renew policies unless a full repipe is completed and certified by a licensed Raleigh plumber. We provide the necessary documentation for your insurer."
   },
   {
-    question: "Can I clean my own grease trap in Charleston?",
-    answer: "While small, under-sink grease traps can technically be cleaned manually, commercial establishments are generally required to use a certified waste hauler for proper disposal and tracking. Self-cleaning often leads to compliance issues if the waste isn't disposed of at a licensed SC facility."
+    question: "How long does a whole-house repipe take in Raleigh?",
+    answer: "Our specialized Raleigh repipe team can typically complete a whole-house project in 3 to 4 days. This includes the plumbing replacement, system testing, and master-level drywall patching and texturing."
   },
   {
-    question: "What happens if my grease trap overflows?",
-    answer: "An overflow is an emergency that can lead to health code violations, foul odors, and sewage backups into your kitchen. We offer 24/7 emergency response in Charleston to pump out overflowing traps and clear grease-related clogs immediately."
+    question: "Is PEX-A the best choice for Raleigh repipes?",
+    answer: "Yes. PEX-A is the gold standard for repiping in Raleigh. It is flexible, which means fewer joints (where most leaks occur), and it can expand up to 3x its size, making it highly resistant to damage during rare Raleigh hard freezes."
   },
   {
-    question: "Does regular maintenance prevent odors in my Charleston kitchen?",
-    answer: "Absolutely. Odors are caused by the decomposition of trapped organic matter. Regular pumping prevents the accumulation of old grease, which is the primary source of 'kitchen sink smells' often found in the Lowcountry heat."
+    question: "Do I have to leave my home during the Raleigh repipe process?",
+    answer: "No. Our Raleigh team works in zones. You will have full water access every evening, and we ensure your home is kept clean and livable with extensive floor and furniture shielding."
   }
 ];
 
@@ -38,10 +38,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Charleston Grease Management FAQ
+            Raleigh Poly-B FAQ
           </h2>
           <p className="text-lg text-slate-600">
-            Expert answers to common questions about grease trap compliance in the Lowcountry.
+            Critical expertise for Raleigh homeowners dealing with Polybutylene plumbing.
           </p>
         </div>
 

@@ -2,20 +2,20 @@ import { ExternalLink } from "lucide-react";
 
 const links = [
   {
-    name: "Scottsdale Water Treatment",
-    url: "https://scottsdalewatertreatment.netlify.app/"
+    name: "Raleigh Water Damage",
+    url: "https://raleighwaterdamage.netlify.app/"
   },
   {
-    name: "Scottsdale Plumber",
-    url: "https://plumbernearmescottsdale.netlify.app/"
+    name: "Cary Repipe Specialists",
+    url: "https://repipe-specialists-cary.netlify.app/"
   },
   {
-    name: "Emergency Plumbing Scottsdale",
-    url: "https://plumbingemergencyscottsdale.netlify.app/"
+    name: "North Raleigh Plumber",
+    url: "https://plumbernearmeraleigh.netlify.app/"
   },
   {
-    name: "Scottsdale Garage Door Repair",
-    url: "https://garagedoorrepairscottsdaleaz.netlify.app/"
+    name: "Apex Home Restoration",
+    url: "https://homerestorationapex.netlify.app/"
   },
 ];
 
@@ -25,7 +25,7 @@ const RandomLinks = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-center items-center gap-6">
           <span className="text-slate-400 font-medium text-sm lg:mr-4 uppercase tracking-widest text-center w-full lg:w-auto mb-4 lg:mb-0">
-            Arizona's Expert Home Network
+            North Carolina's Premier Home Network
           </span>
           {links.map((link, index) => (
             <a

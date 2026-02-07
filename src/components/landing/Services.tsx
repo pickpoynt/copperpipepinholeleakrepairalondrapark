@@ -1,53 +1,53 @@
-import { Trash2, Droplets, Shield, MapPin, ClipboardCheck, Zap, Ruler, Activity } from "lucide-react";
+import { Search, Droplets, Shield, Hammer, AlertTriangle, Waves, Activity, Zap, ClipboardList } from "lucide-react";
 
 const services = [
   {
-    icon: Trash2,
-    title: "Grease Trap Pumping",
-    description: "Complete removal of all FOG (Fats, Oils, and Grease) from your kitchen interceptors, ensuring smooth drainage and zero odors.",
-    link: "#grease-trap-info"
+    icon: Search,
+    title: "Poly-B Leak Detection",
+    description: "Using precision acoustic and thermal testing to locate silent leaks in Polybutylene lines before they cause catastrophic Wake County floods.",
+    link: "#polyb-info"
   },
   {
-    icon: ClipboardCheck,
-    title: "Compliance Documentation",
-    description: "We provide all necessary manifest tags and reporting to keep you in good standing with Charleston Water System and local FOG programs.",
-    link: "#grease-trap-info"
-  },
-  {
-    icon: Activity,
-    title: "Scheduled Maintenance",
-    description: "Routine cleaning schedules tailored to your kitchen's volume, preventing costly emergency backups and fines.",
-    link: "#grease-trap-info"
+    icon: Hammer,
+    title: "Whole House Repipe",
+    description: "Removing all failing grey Polybutylene pipes and replacing them with premium PEX-A, complete with dry-wall repair and system testing.",
+    link: "#polyb-info"
   },
   {
     icon: Shield,
-    title: "Interceptor Inspection",
-    description: "Verifying the structural integrity of your grease traps to ensure they are capturing grease effectively before it enters the sewer line.",
-    link: "#grease-trap-info"
+    title: "PEX Pipe Upgrades",
+    description: "Upgrading your Raleigh home to modern PEX-A piping, known for its flexibility, freeze resistance, and 50+ year life expectancy.",
+    link: "#polyb-info"
+  },
+  {
+    icon: AlertTriangle,
+    title: "Emergency Pipe Burst",
+    description: "24/7 rapid response for Poly-B blowouts. We stabilize the leak and provide immediate options for partial or full-house restoration.",
+    link: "#polyb-info"
+  },
+  {
+    icon: ClipboardList,
+    title: "Insurance Compliance",
+    description: "Many Raleigh insurance providers refuse coverage for homes with Poly-B. We provide certified documentation of your repipe for your insurer.",
+    link: "#polyb-info"
+  },
+  {
+    icon: Activity,
+    title: "Fixture Integration",
+    description: "Ensuring your new PEX system integrates perfectly with your existing Raleigh kitchen and bathroom fixtures for optimal water pressure.",
+    link: "#polyb-info"
   },
   {
     icon: Zap,
-    title: "Emergency Backups",
-    description: "Drain slow or backing up? Our Charleston team is on call for rapid grease-related line clearing and trap cleaning.",
-    link: "#grease-trap-info"
+    title: "Main Line Replacement",
+    description: "Expert replacement of exterior Polybutylene main water lines that connect your Raleigh home to the municipal water source.",
+    link: "#polyb-info"
   },
   {
     icon: Droplets,
-    title: "FOG Disposal",
-    description: "Eco-friendly disposal of grease waste at certified South Carolina facilities, adhering to all state environmental standards.",
-    link: "#grease-trap-info"
-  },
-  {
-    icon: Ruler,
-    title: "Interceptor Sizing",
-    description: "Professional advice on grease interceptor sizing and installation requirements for new or expanding Charleston food businesses.",
-    link: "#grease-trap-info"
-  },
-  {
-    icon: MapPin,
-    title: "Multi-Location Support",
-    description: "Consolidated grease management services for restaurant groups and franchise owners across the Charleston metro area.",
-    link: "#grease-trap-info"
+    title: "Scale & Sediment Flush",
+    description: "Full system flushing after your repipe to ensure your Raleigh property has crystal clear water and no debris from old pipe fragments.",
+    link: "#polyb-info"
   }
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Total Grease Management for Charleston Kitchens
+            Raleigh's Specialized Polybutylene Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            From the Battery to North Charleston, we help restaurants stay clean, compliant, and open for business.
+            Don't trust generic plumbers with a complex whole-house repipe. Our Raleigh team specializes specifically in the safe removal and replacement of Poly-B systems.
           </p>
         </div>
 
