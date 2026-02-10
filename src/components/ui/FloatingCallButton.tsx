@@ -6,10 +6,10 @@ const FloatingCallButton = () => {
         <div className="fixed bottom-6 right-6 z-50 md:hidden animate-bounce">
             <Button
                 size="lg"
-                className="rounded-full w-16 h-16 bg-teal-600 hover:bg-teal-700 text-white shadow-2xl shadow-teal-900/40 p-0"
+                className="rounded-full w-16 h-16 bg-indigo-600 hover:bg-indigo-700 text-white shadow-2xl shadow-indigo-900/40 p-0"
                 asChild
             >
-                <a href="tel:3802660944" aria-label="Call Ocean City Crawl Space Pros">
+                <a href="tel:3802660944" aria-label="Call Sausalito Attic Mold Pros">
                     <Phone className="w-8 h-8" />
                 </a>
             </Button>

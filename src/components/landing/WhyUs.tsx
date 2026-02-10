@@ -3,33 +3,33 @@ import { Shield, Microscope, MapPin, Home, ClipboardCheck, Wind, Award, Sparkles
 const reasons = [
   {
     icon: Home,
-    title: "Ocean City Foundation Experts",
-    description: "We are the leading specialists for crawl space water removal in Ocean City, serving Maryland coastal property owners for over 15 years."
+    title: "Sausalito Microclimate Experts",
+    description: "We lead Marin County in solving attic moisture issues caused by Sausalito's unique fog and hillside humidity."
   },
   {
     icon: Microscope,
-    title: "Coastal Moisture Analysis",
-    description: "Every Ocean City project begins with a professional thermal assessment, identifying the exact migration path of groundwater into your crawl space."
+    title: "Eco-Friendly Remediation",
+    description: "Advanced dry ice blasting and non-toxic antimicrobials that are safer for your family and Sausalito's environment."
   },
   {
-    icon: Waves,
-    title: "Storm Surge Response",
-    description: "We provide specialized extraction and drying for Ocean City foundations after major Atlantic storm surges or coastal flooding events."
+    icon: Wind,
+    title: "Precision Ventilation",
+    description: "Specialized in retrofitting Marin hillside homes with high-performance airflow systems that prevent mold roots."
   },
   {
     icon: ClipboardCheck,
-    title: "IICRC Certified & Local",
-    description: "Our Ocean City team is IICRC certified in water damage restoration and structural drying, meeting the highest industry standards for crawl spaces."
+    title: "IICRC Certified Marin",
+    description: "Our team is IICRC certified in microbial remediation, ensuring every job meets California's highest standards."
   },
   {
     icon: Shield,
-    title: "Certified Dry Guarantee",
-    description: "We don't just 'pump out' water; we extract and encapsulate. If any foundation moisture residue is found within 30 days, we'll return at zero cost."
+    title: "EPA Air Quality Guarantee",
+    description: "We don't just remove mold; we purify your air. Every project includes HEPA air scrubbing and clearance testing."
   },
   {
     icon: Award,
-    title: "OC Approved Partner",
-    description: "Working directly with Ocean City property managers and coastal homeowners to ensure permanent moisture control in beach environments."
+    title: "Historic Home Care",
+    description: "Decades of experience working with Sausalito's historic redwood and timber-frame attic structures."
   }
 ];
 
@@ -39,10 +39,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Ocean City's Choice for Crawl Space Recovery
+            Sausalito's Choice for Attic Restoration
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Choose the foundation restoration team that Ocean City property owners trust. We specialize in turning a flooded crawl space into a dry, healthy foundation.
+            Choose the remediation team that Marin County homeowners trust. We specialize in turning a moldy attic into a healthy, dry space.
           </p>
         </div>
 
@@ -52,8 +52,8 @@ const WhyUs = () => {
               key={index}
               className="p-8 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
-                <reason.icon className="w-6 h-6 text-teal-600" />
+              <div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
+                <reason.icon className="w-6 h-6 text-indigo-600" />
               </div>
               <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
                 {reason.title}

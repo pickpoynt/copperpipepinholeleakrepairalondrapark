@@ -1,109 +1,81 @@
-import { ShieldCheck, Wind, AlertCircle, Thermometer, Droplets, Info } from "lucide-react";
-
-const infoData = [
-    {
-        icon: Thermometer,
-        title: "Thermal Mapping",
-        description: "We use infrared thermography to identify cold spots and moisture traps in your attic that are invisible to the naked eye but perfect for mold growth.",
-    },
-    {
-        icon: Wind,
-        title: "Pressure Management",
-        description: "During remediation, we maintain negative air pressure to ensure that mold spores cannot drift from your attic into your living spaces.",
-    },
-    {
-        icon: Info,
-        title: "Post-Removal Testing",
-        description: "Once the mold is removed, we provide professional air quality testing to verify that spore counts have returned to safe, natural levels.",
-    },
-];
-
-const benefitsData = [
-    "Certified Black Mold Remediation",
-    "HEPA Air Scrubbing & Filtration",
-    "Antimicrobial Surface Treatment",
-    "Ventilation & Humidity Balancing",
-    "Josephine Local Expert Teams",
-    "Eco-Safe & Non-Toxic Solutions",
-];
+import { Shield, Wind, AlertTriangle, CheckCircle2, Home, Thermometer } from "lucide-react";
 
 const AtticMoldInfo = () => {
     return (
-        <section id="attic-info" className="py-24 bg-gradient-hero">
+        <section id="attic-mold-info" className="py-20 bg-gradient-to-br from-slate-50 via-indigo-50 to-slate-100">
             <div className="container mx-auto px-4">
-                <div className="text-center max-w-3xl mx-auto mb-16">
-                    <span className="inline-block px-4 py-2 bg-copper/20 border border-copper/30 rounded-full text-copper-light text-sm font-semibold mb-4">
-                        Josephine Attic Health Standards
-                    </span>
-                    <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-foreground mb-4">
-                        The Science of Attic Remediation
-                    </h2>
-                    <p className="text-primary-foreground/80 text-lg">
-                        Attic mold is often a symptom of underlying insulation or ventilation failures. Our Josephine team doesn't just clean the mold; we correct the ecosystem of your attic to ensure it never returns.
-                    </p>
-                </div>
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-16">
+                        <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 font-heading">
+                            Sausalito Attic Mold Remediation: Marin County Experts
+                        </h2>
+                        <p className="text-xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
+                            Sausalito's famous fog and hillside microclimates create high humidity levels that often lead to silent mold growth in attics. We specialize in non-toxic remediation and precision ventilation for Marin's unique architecture.
+                        </p>
+                    </div>
 
-                {/* Info Cards */}
-                <div className="grid md:grid-cols-3 gap-8 mb-16">
-                    {infoData.map((info, index) => (
-                        <div
-                            key={index}
-                            className="bg-card rounded-xl p-8 shadow-lg border border-border hover:border-copper/30 transition-all duration-300"
-                        >
-                            <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center mb-6">
-                                <info.icon className="w-7 h-7 text-copper" />
-                            </div>
-                            <h3 className="text-xl font-heading font-bold text-foreground mb-3">
-                                {info.title}
+                    <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+                        <div className="relative group overflow-hidden rounded-3xl shadow-2xl transition-all duration-500 hover:scale-[1.02]">
+                            <img
+                                src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80"
+                                alt="Attic mold remediation Sausalito"
+                                className="w-full h-full object-cover aspect-video brightness-90 group-hover:brightness-100 transition-all duration-500"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/40 to-transparent" />
+                        </div>
+                        <div className="space-y-8">
+                            <h3 className="text-3xl font-bold text-slate-900 leading-tight">
+                                Hillside Microclimate Mitigation
                             </h3>
-                            <p className="text-muted-foreground leading-relaxed">
-                                {info.description}
+                            <p className="text-lg text-slate-600 leading-relaxed">
+                                Houses in Sausalito face unique pressure from the Bay's moisture-rich air. When warm indoor air meets are cool attic surfaces during a foggy night, condensation triggers rapid mold germination on plywood and rafters.
+                            </p>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                <div className="flex items-start gap-3">
+                                    <div className="mt-1 bg-indigo-100 p-2 rounded-lg">
+                                        <AlertTriangle className="w-5 h-5 text-indigo-600" />
+                                    </div>
+                                    <div>
+                                        <h4 className="font-bold text-slate-900 text-sm uppercase tracking-wider">HEPA Filtration</h4>
+                                        <p className="text-slate-500 text-sm">Captures 99.97% of mold spores.</p>
+                                    </div>
+                                </div>
+                                <div className="flex items-start gap-3">
+                                    <div className="mt-1 bg-indigo-100 p-2 rounded-lg">
+                                        <Wind className="w-5 h-5 text-indigo-600" />
+                                    </div>
+                                    <div>
+                                        <h4 className="font-bold text-slate-900 text-sm uppercase tracking-wider">Ventilation Pro</h4>
+                                        <p className="text-slate-500 text-sm">Permanent airflow solutions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div className="p-10 rounded-[2.5rem] bg-white border border-indigo-100 shadow-xl shadow-indigo-900/5 hover:-translate-y-2 transition-all duration-300">
+                            <CheckCircle2 className="w-12 h-12 text-indigo-500 mb-6" />
+                            <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">Dry Ice Blasting</h3>
+                            <p className="text-slate-600 leading-relaxed italic">
+                                "Eco-friendly, abrasive-free mold removal that preserves Sausalito's historic wood structures without chemicals."
                             </p>
                         </div>
-                    ))}
-                </div>
-
-                {/* Two Column Content */}
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    <div className="bg-card rounded-2xl p-8 lg:p-10 shadow-xl border border-border">
-                        <div className="flex items-center gap-3 mb-6">
-                            <AlertCircle className="w-8 h-8 text-copper" />
-                            <h3 className="text-2xl font-heading font-bold text-foreground">
-                                Why Attic Mold Matters
-                            </h3>
+                        <div className="p-10 rounded-[2.5rem] bg-indigo-600 text-white shadow-xl shadow-indigo-900/20 hover:-translate-y-2 transition-all duration-300 relative overflow-hidden group">
+                            <Home className="absolute -right-4 -bottom-4 w-32 h-32 text-white/10 group-hover:rotate-12 transition-transform duration-500" />
+                            <Shield className="w-12 h-12 text-indigo-200 mb-6" />
+                            <h3 className="text-2xl font-bold mb-4 tracking-tight">Sealant Defense</h3>
+                            <p className="text-indigo-50/90 leading-relaxed italic">
+                                "Advanced anti-microbial coatings that prevent moisture from penetrating redwood and pine timbers."
+                            </p>
                         </div>
-                        <p className="text-muted-foreground mb-6 leading-relaxed">
-                            Mold in your Josephine attic isn't just a structural issue; due to the "stack effect," air from your attic can be pulled down into your living areas. If you have attic mold, you are likely breathing it in every day.
-                        </p>
-                        <p className="text-muted-foreground leading-relaxed">
-                            Our remediation process involves full containment and the use of eco-friendly biocides that bond to wood fibers, creating a long-term barrier against future mold colonies even in high-humidity Texas summers.
-                        </p>
-                    </div>
-
-                    <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 lg:p-10 shadow-xl">
-                        <h3 className="text-2xl font-heading font-bold text-primary-foreground mb-6">
-                            Our Quality Commitment
-                        </h3>
-                        <ul className="space-y-4">
-                            {benefitsData.map((benefit, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <ShieldCheck className="w-6 h-6 text-copper flex-shrink-0 mt-0.5" />
-                                    <span className="text-primary-foreground/90 text-lg">
-                                        {benefit}
-                                    </span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
-
-                {/* Bottom CTA */}
-                <div className="mt-16 text-center">
-                    <div className="inline-flex items-center gap-4 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-8 py-4">
-                        <Droplets className="w-6 h-6 text-copper" />
-                        <span className="text-primary-foreground font-medium text-lg">
-                            Breathe easier. Call for a certified Josephine mold assessment: (380) 266-0944.
-                        </span>
+                        <div className="p-10 rounded-[2.5rem] bg-white border border-indigo-100 shadow-xl shadow-indigo-900/5 hover:-translate-y-2 transition-all duration-300">
+                            <Thermometer className="w-12 h-12 text-indigo-500 mb-6" />
+                            <h3 className="text-2xl font-bold text-slate-900 mb-4 tracking-tight">Thermal Analytics</h3>
+                            <p className="text-slate-600 leading-relaxed italic">
+                                "High-precision thermal imaging to find hidden condensation points in hillside roof valleys."
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

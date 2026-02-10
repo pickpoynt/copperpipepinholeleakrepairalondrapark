@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import CrawlSpaceInfo from "@/components/landing/CrawlSpaceInfo";
+import AtticMoldInfo from "@/components/landing/AtticMoldInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Crawl space water removal Ocean City MD | Ocean City Crawl Space Pros</title>
-        <meta name="description" content="Crawl space water removal Ocean City MD. Professional standing water extraction, coastal encapsulation, and mold prevention in MD. Call (380) 266-0944!" />
-        <meta name="keywords" content="Crawl space water removal Ocean City MD, crawl space encapsulation MD, Ocean City foundation flood repair, crawl space flood mitigation" />
-        <link rel="canonical" href="https://oceancity-crawlspace-pros.com/" />
+        <title>Attic mold remediation Sausalito | Sausalito Attic Mold Pros</title>
+        <meta name="description" content="Attic mold remediation Sausalito. Professional mold removal, attic ventilation, and fog-moisture control in Marin County. Call (380) 266-0944!" />
+        <meta name="keywords" content="Attic mold remediation Sausalito, mold removal Sausalito CA, Sausalito attic ventilation, Marin County mold inspector" />
+        <link rel="canonical" href="https://sausalito-attic-mold.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Ocean City Crawl Space Pros",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+            "name": "Sausalito Attic Mold Pros",
+            "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "Ocean City",
-              "addressRegion": "MD",
-              "postalCode": "21842",
+              "addressLocality": "Sausalito",
+              "addressRegion": "CA",
+              "postalCode": "94965",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "38.3365",
-              "longitude": "-75.0849"
+              "latitude": "37.8591",
+              "longitude": "-122.4853"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "Ocean City, Maryland"
+              "name": "Sausalito, California"
             },
             "priceRange": "$$$",
-            "description": "Expert crawl space water removal and encapsulation in Ocean City, MD. Specialized in coastal moisture control, sump pump systems, and foundation recovery."
+            "description": "Expert attic mold remediation and moisture control in Sausalito, CA. Specialized in hillside ventilation, HEPA filtration, and non-toxic removal."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Crawl Space Water Removal Services",
+            "serviceType": "Attic Mold Remediation Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Ocean City Crawl Space Pros",
+              "name": "Sausalito Attic Mold Pros",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "Ocean City, Maryland"
+              "name": "Sausalito, California"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Crawl Space Recovery Services",
+              "name": "Attic Recovery Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Standing Water Extraction"
+                    "name": "HEPA Air Scrubbing"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Crawl Space Encapsulation"
+                    "name": "Dry Ice Blasting Remediation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Sump Pump Installation"
+                    "name": "Attic Ventilation Retrofitting"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Foundation Dehumidification"
+                    "name": "Thermal Moisture Mapping"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Crawl space water removal Ocean City MD | Crawl Space Pros" />
-        <meta property="og:description" content="Professional crawl space water removal in Ocean City, MD. 24/7 standing water extraction and encapsulation. Call (380) 266-0944 for immediate service." />
+        <meta property="og:title" content="Attic mold remediation Sausalito | Attic Mold Pros" />
+        <meta property="og:description" content="Professional attic mold remediation in Sausalito, CA. 24/7 HEPA air scrubbing and ventilation repair. Call (380) 266-0944 for a diagnostic." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://oceancity-crawlspace-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://sausalito-attic-mold.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,16 +115,16 @@ const Index = () => {
         <Hero
           title={
             <>
-              Crawl space water removal Ocean City MD
-              <span className="block text-teal-400 mt-2">Ocean City Crawl Space Pros: Coastal Foundation Experts</span>
+              Attic mold remediation Sausalito
+              <span className="block text-indigo-400 mt-2">Sausalito Attic Mold Pros: Hillside Moisture Specialists</span>
             </>
           }
-          subtitle="Don't let standing water rot your coastal foundation. Our specialized crawl space extraction and encapsulation systems target moisture trapped beneath your home—preventing mold and structural decay with Ocean City precision."
-          image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80"
+          subtitle="Stop foggy-night condensation from rotting your home. Our specialized attic remediation and Marin-grade ventilation systems target spores trapped in your roof—preventing health risks with Sausalito precision."
+          image="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <CrawlSpaceInfo />
+        <AtticMoldInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

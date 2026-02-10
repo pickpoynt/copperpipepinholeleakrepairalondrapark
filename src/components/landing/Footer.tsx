@@ -10,21 +10,21 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-xl bg-teal-600 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center">
                 <Home className="w-6 h-6 text-white" />
               </div>
               <span className="font-heading font-bold text-xl text-white">
-                Ocean City Crawl Space Pros
+                Sausalito Attic Mold Pros
               </span>
             </div>
             <p className="text-slate-400 leading-relaxed">
-              Ocean City's leading specialists in coastal crawl space water removal. We protect your island foundation with industrial extraction and full encapsulation technology.
+              Sausalito's leading specialists in hillside attic mold remediation. We protect your Marin home with scientific extraction and full ventilation engineering technology.
             </p>
             <div className="flex items-center gap-4">
-              <a href="tel:3802660944" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-600 transition-colors">
+              <a href="tel:3802660944" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-indigo-600 transition-colors">
                 <Phone className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-600 transition-colors">
+              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-indigo-600 transition-colors">
                 <Mail className="w-5 h-5 text-white" />
               </a>
             </div>
@@ -32,39 +32,39 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Foundation Services</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Attic Services</h4>
             <ul className="space-y-4">
-              <li><a href="#services" className="hover:text-teal-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-teal-600" /> Standing Water Removal</a></li>
-              <li><a href="#services" className="hover:text-teal-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-teal-600" /> Foundation Dewatering</a></li>
-              <li><a href="#services" className="hover:text-teal-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-teal-600" /> Crawl Space Encapsulation</a></li>
-              <li><a href="#services" className="hover:text-teal-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-teal-600" /> Sump Pump Installation</a></li>
-              <li><a href="#services" className="hover:text-teal-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-teal-600" /> Structural Drying</a></li>
+              <li><a href="#services" className="hover:text-indigo-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-indigo-600" /> Attic Mold Remediation</a></li>
+              <li><a href="#services" className="hover:text-indigo-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-indigo-600" /> Hillside Ventilation</a></li>
+              <li><a href="#services" className="hover:text-indigo-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-indigo-600" /> HEPA Air Scrubbing</a></li>
+              <li><a href="#services" className="hover:text-indigo-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-indigo-600" /> Thermal Mapping</a></li>
+              <li><a href="#services" className="hover:text-indigo-400 transition-colors flex items-center gap-2"><div className="w-1 h-1 rounded-full bg-indigo-600" /> Insulation Removal</a></li>
             </ul>
           </div>
 
           {/* Locations */}
           <div>
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Ocean City MD Area</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Sausalito Area</h4>
             <ul className="space-y-4">
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-teal-600" /> Ocean City Boardwalk</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-teal-600" /> North Ocean City</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-teal-600" /> West Ocean City</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-teal-600" /> Caine Woods Area</li>
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-teal-600" /> Montego Bay Neighborhood</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-indigo-600" /> Bridgeway/Downtown</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-indigo-600" /> Sausalito Hillside</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-indigo-600" /> Marin City Area</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-indigo-600" /> Spring Valley</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-indigo-600" /> Old Town Sausalito</li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div className="space-y-6">
-            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Ocean City MD Hotline</h4>
+            <h4 className="font-heading font-bold text-white mb-6 uppercase tracking-wider text-sm">Marin County Hotline</h4>
             <div className="bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-xl">
-              <div className="text-teal-400 font-bold text-sm uppercase mb-2">MD Licensed & Bonded</div>
-              <a href="tel:3802660944" className="text-2xl font-heading font-bold text-white hover:text-teal-400 transition-colors">
+              <div className="text-indigo-400 font-bold text-sm uppercase mb-2">CA Licensed & Bonded</div>
+              <a href="tel:3802660944" className="text-2xl font-heading font-bold text-white hover:text-indigo-400 transition-colors">
                 (380) 266-0944
               </a>
               <div className="flex items-center gap-2 mt-4 text-slate-400 text-sm">
-                <ShieldCheck className="w-4 h-4 text-teal-600" />
-                Licensed & Insured #OCMDREST1
+                <ShieldCheck className="w-4 h-4 text-indigo-600" />
+                Licensed & Insured #MARINREST1
               </div>
             </div>
           </div>
@@ -73,16 +73,16 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-slate-800 text-center md:text-left flex flex-col md:row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm">
-            © {currentYear} Ocean City Crawl Space Pros. All rights reserved.
+            © {currentYear} Sausalito Attic Mold Pros. All rights reserved.
             <span className="mx-2">|</span>
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <span className="mx-2">|</span>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
           </p>
           <div className="flex items-center gap-3">
-            <div className="text-xs text-slate-600 italic">Crawl space water removal Ocean City MD</div>
-            <div className="w-2 h-2 rounded-full bg-teal-600/30" />
-            <div className="text-xs text-slate-600 italic">MD Coast Foundation Recovery</div>
+            <div className="text-xs text-slate-600 italic">Attic mold remediation Sausalito</div>
+            <div className="w-2 h-2 rounded-full bg-indigo-600/30" />
+            <div className="text-xs text-slate-600 italic">Marin Hillside Restoration</div>
           </div>
         </div>
       </div>
@@ -92,24 +92,24 @@ const Footer = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Ocean City Crawl Space Pros",
+          "name": "Sausalito Attic Mold Pros",
           "telephone": "+1-380-266-0944",
-          "url": "https://oceancity-crawlspace-pros.com/",
-          "logo": "https://oceancity-crawlspace-pros.com/logo.png",
-          "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
-          "description": "Professional crawl space water removal and foundation restoration services in Ocean City, MD. We specialize in coastal encapsulation and dewatering.",
+          "url": "https://sausalito-attic-mold.com/",
+          "logo": "https://sausalito-attic-mold.com/logo.png",
+          "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80",
+          "description": "Professional attic mold remediation and ventilation services in Sausalito, CA. We specialize in hillside moisture control and non-toxic removal.",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Serving Ocean City and the Coastal Highway",
-            "addressLocality": "Ocean City",
-            "addressRegion": "MD",
-            "postalCode": "21842",
+            "streetAddress": "Serving Sausalito and the Hillside Districts",
+            "addressLocality": "Sausalito",
+            "addressRegion": "CA",
+            "postalCode": "94965",
             "addressCountry": "US"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "latitude": 38.3365,
-            "longitude": -75.0849
+            "latitude": 37.8591,
+            "longitude": -122.4853
           },
           "openingHoursSpecification": {
             "@type": "OpeningHoursSpecification",

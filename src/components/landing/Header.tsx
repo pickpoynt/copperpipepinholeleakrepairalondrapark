@@ -16,7 +16,7 @@ const Header = () => {
 
   const navLinks = [
     { name: "Services", href: "#services" },
-    { name: "Foundation Care", href: "#crawl-space-info" },
+    { name: "Attic Health", href: "#attic-mold-info" },
     { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
   ];
@@ -30,15 +30,15 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${isScrolled ? "bg-teal-600" : "bg-white"}`}>
-              <Home className={`w-6 h-6 ${isScrolled ? "text-white" : "text-teal-600"}`} />
+            <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${isScrolled ? "bg-indigo-600" : "bg-white"}`}>
+              <Home className={`w-6 h-6 ${isScrolled ? "text-white" : "text-indigo-600"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-xl block leading-none ${isScrolled ? "text-slate-900" : "text-white"}`}>
-                Ocean City
+                Sausalito
               </span>
-              <span className={`text-sm font-medium ${isScrolled ? "text-teal-600" : "text-teal-100"}`}>
-                Crawl Space Pros
+              <span className={`text-sm font-medium ${isScrolled ? "text-indigo-600" : "text-indigo-100"}`}>
+                Attic Mold Pros
               </span>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Header = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-teal-400 ${isScrolled ? "text-slate-600" : "text-white/90"
+                className={`text-sm font-medium transition-colors hover:text-indigo-400 ${isScrolled ? "text-slate-600" : "text-white/90"
                   }`}
               >
                 {link.name}
@@ -59,8 +59,8 @@ const Header = () => {
             ))}
             <Button
               className={`${isScrolled
-                ? "bg-teal-600 text-white hover:bg-teal-700"
-                : "bg-white text-teal-900 hover:bg-teal-50"
+                ? "bg-indigo-600 text-white hover:bg-indigo-700"
+                : "bg-white text-indigo-900 hover:bg-indigo-50"
                 }`}
             >
               <a href="tel:3802660944" className="flex items-center gap-2">
@@ -93,13 +93,13 @@ const Header = () => {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-slate-600 hover:text-teal-600 transition-colors font-medium py-2 px-2"
+                  className="text-slate-600 hover:text-indigo-600 transition-colors font-medium py-2 px-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.name}
                 </a>
               ))}
-              <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white" size="lg" asChild>
+              <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white" size="lg" asChild>
                 <a href="tel:3802660944" className="flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   (380) 266-0944
