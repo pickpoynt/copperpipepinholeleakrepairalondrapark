@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Phone, Menu, X, ShieldCheck, Microscope } from "lucide-react";
+import { Phone, Menu, X, ShieldCheck, Warehouse } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
@@ -15,16 +15,16 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: "Service", href: "#services" },
-    { name: "Mold Lab", href: "#basement-mold-info" },
-    { name: "Testing FAQ", href: "#faq" },
+    { name: "Remediation", href: "#services" },
+    { name: "Garage Info", href: "#garage-mold-info" },
+    { name: "FAQ", href: "#faq" },
     { name: "Contact", href: "#contact" },
   ];
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
-          ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-blue-50"
+          ? "bg-white/95 backdrop-blur-md py-4 shadow-lg border-b border-orange-50"
           : "bg-transparent py-6"
         }`}
     >
@@ -32,15 +32,15 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-blue-600 rotate-0" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
-              <Microscope className={`w-7 h-7 ${isScrolled ? "text-white" : "text-blue-500"}`} />
+            <div className={`w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 ${isScrolled ? "bg-orange-600 rotate-0" : "bg-white/10 backdrop-blur-md border border-white/20 rotate-[-10deg] group-hover:rotate-0"}`}>
+              <Warehouse className={`w-7 h-7 ${isScrolled ? "text-white" : "text-orange-500"}`} />
             </div>
             <div>
               <span className={`font-heading font-bold text-2xl block leading-none tracking-tight ${isScrolled ? "text-slate-900" : "text-white"}`}>
                 Ambler
               </span>
-              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-blue-600" : "text-blue-400"}`}>
-                Basement <span className="text-[10px] opacity-70">Mold Lab</span>
+              <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-orange-600" : "text-orange-400"}`}>
+                Garage Mold <span className="text-[10px] opacity-70">Professionals</span>
               </span>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Header = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"
+                className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-orange-600" : "text-white/90 hover:text-white"
                   }`}
               >
                 {link.name}
@@ -62,13 +62,13 @@ const Header = () => {
           {/* Contact Actions */}
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
-              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Ambler Lab Line</span>
-              <a href="tel:3802660944" className="text-xl font-bold hover:text-blue-500 transition-colors tracking-tighter">
+              <span className="text-[10px] font-bold uppercase tracking-widest opacity-60">Ambler Garage Line</span>
+              <a href="tel:3802660944" className="text-xl font-bold hover:text-orange-500 transition-colors tracking-tighter">
                 (380) 266-0944
               </a>
             </div>
-            <Button className={`${isScrolled ? "bg-blue-600 hover:bg-blue-700 shadow-blue-900/20" : "bg-white text-slate-900 hover:bg-blue-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
-              <a href="#contact">Schedule Testing</a>
+            <Button className={`${isScrolled ? "bg-orange-600 hover:bg-orange-700 shadow-orange-900/20" : "bg-white text-slate-900 hover:bg-orange-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
+              <a href="#contact">Emergency Response</a>
             </Button>
           </div>
 
@@ -94,15 +94,15 @@ const Header = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-lg font-bold tracking-wide hover:text-blue-400 transition-colors"
+                className="text-lg font-bold tracking-wide hover:text-orange-400 transition-colors"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.name}
               </a>
             ))}
             <div className="pt-6 border-t border-slate-800">
-              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">Ambler Lab Line</p>
-              <a href="tel:3802660944" className="text-2xl font-bold text-blue-500">
+              <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">Ambler Garage Line</p>
+              <a href="tel:3802660944" className="text-2xl font-bold text-orange-500">
                 (380) 266-0944
               </a>
             </div>

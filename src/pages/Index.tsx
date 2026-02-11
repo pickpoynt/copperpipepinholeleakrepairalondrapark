@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import BasementMoldTestingInfo from "@/components/landing/BasementMoldTestingInfo";
+import GarageMoldRemediationInfo from "@/components/landing/GarageMoldRemediationInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,20 +15,20 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Basement mold testing Ambler</title>
-        <meta name="description" content="Basement mold testing Ambler. Professional air quality testing, spore counting, and hidden moisture mapping for Ambler basements. Certified lab results. Call (380) 266-0944!" />
-        <meta name="keywords" content="Basement mold testing Ambler, mold inspector Ambler PA, basement air quality testing Ambler, Montgomery County mold testing" />
-        <link rel="canonical" href="https://ambler-mold-testing.com/" />
+        <title>Garage mold remediation Ambler</title>
+        <meta name="description" content="Garage mold remediation Ambler. Specialized removal for garage walls, rafters, and storage areas. Professional antimicrobial treatments in Ambler, PA. Call (380) 266-0944!" />
+        <meta name="keywords" content="Garage mold remediation Ambler, garage mold removal Ambler PA, detached garage cleaning Ambler, Montgomery County mold specialists" />
+        <link rel="canonical" href="https://ambler-garage-mold.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Ambler Basement Mold Lab",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
+            "name": "Ambler Garage Mold Professionals",
+            "image": "https://images.unsplash.com/photo-1599423524402-0e86b0266050?auto=format&fit=crop&q=80",
             "telephone": "+1-380-266-0944",
-            "priceRange": "$$",
+            "priceRange": "$$$",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Ambler",
@@ -46,7 +46,7 @@ const Index = () => {
               "@type": "Place",
               "name": "Ambler, Pennsylvania"
             },
-            "description": "Certified basement mold testing and indoor air quality analysis in Ambler, PA. Specialized in moisture mapping and laboratory spore identification."
+            "description": "Professional garage mold remediation and restoration services in Ambler, PA. Specialized in structural wood cleaning and antimicrobial protection."
           })}
         </script>
 
@@ -55,10 +55,10 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Basement Mold Testing",
+            "serviceType": "Garage Mold Remediation",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Ambler Basement Mold Lab",
+              "name": "Ambler Garage Mold Professionals",
               "telephone": "+1-380-266-0944"
             },
             "areaServed": {
@@ -67,34 +67,34 @@ const Index = () => {
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Mold Testing Services",
+              "name": "Mold Removal Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Basement Air Spore Sampling"
+                    "name": "Garage Wall Decontamination"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Infrared Moisture Mapping"
+                    "name": "Rafter HEPA Cleaning"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Hidden Mold Diagnostics"
+                    "name": "Antimicrobial Encapsulation"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Independent Laboratory Analysis"
+                    "name": "Content Cleaning & Sanitization"
                   }
                 }
               ]
@@ -103,23 +103,23 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Basement mold testing Ambler" />
-        <meta property="og:description" content="Scientific basement mold testing in Ambler, PA. Certified inspectors and lab results for hidden moisture and spore counts. Call (380) 266-0944." />
+        <meta property="og:title" content="Garage mold remediation Ambler" />
+        <meta property="og:description" content="Professional garage mold removal in Ambler, PA. 24/7 remediation for walls, rafters, and content. Call (380) 266-0944." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ambler-mold-testing.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1590644365607-1c5a519a7a37?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://ambler-garage-mold.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1599423524402-0e86b0266050?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
       <main>
         <Hero
-          title="Basement mold testing Ambler"
-          subtitle="Is your basement hiding toxic spores? Our independent certified inspectors use medical-grade air sampling and infrared mapping to reveal hidden mold colonies in your Ambler home with absolute scientific certainty. Ambler Basement Mold Lab: Precision Diagnostics."
-          image="https://images.unsplash.com/photo-1503708928676-1cb796a0891e?auto=format&fit=crop&q=80"
+          title="Garage mold remediation Ambler"
+          subtitle="Don't let mold take over your garage and threaten your home's air quality. Our Ambler based crews specialize in HEPA-filtered structural cleaning and antimicrobial barriers for garages and storage spaces. Ambler Garage Mold Professionals: Restoring Your Space."
+          image="https://images.unsplash.com/photo-1516515429572-10920000305a?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <BasementMoldTestingInfo />
+        <GarageMoldRemediationInfo />
         <FAQ />
         <Contact />
         <RandomLinks />
