@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                SF PLUMBING PROS
+                WESTLAKE PIPE PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule a <span className="text-indigo-600">San Francisco Plumber</span>
+                Schedule <span className="text-orange-600">Cast Iron Replacement</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your Bay Area home from leaks and plumbing fatigue. From seismic upgrades to historic preservation, our SF team is ready to respond.
+                Protect your Westlake Village luxury property from the hidden risks of corroded cast iron. Our expert team provides precise diagnostics and permanent solutions.
               </p>
 
               <div className="space-y-8">
@@ -47,8 +47,8 @@ const Contact = () => {
                     <MapPin className="w-7 h-7" />
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">San Francisco & The Bay Area</p>
+                    <p className="text-sm font-bold text-orange-600 uppercase tracking-widest mb-1">Service Area</p>
+                    <p className="text-xl font-bold text-slate-900">Westlake Village & Greater Ventura County</p>
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Contact = () => {
                   Request Service
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *24/7 Rapid response for San Francisco plumbing emergencies
+                  *24/7 Priority diagnostics for Westlake Village pipe emergencies
                 </p>
               </form>
             </div>

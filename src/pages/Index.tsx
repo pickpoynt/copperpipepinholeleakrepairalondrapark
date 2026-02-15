@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import SFPlumbingInfo from "@/components/landing/SFPlumbingInfo";
+import WestlakeVillagePipeInfo from "@/components/landing/WestlakeVillagePipeInfo";
 import FAQ from "@/components/landing/FAQ";
 import Contact from "@/components/landing/Contact";
 import Footer from "@/components/landing/Footer";
@@ -15,38 +15,38 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Plumber San Francisco CA San Francisco</title>
-        <meta name="description" content="Plumber San Francisco CA San Francisco. Expert plumbing repair and installation in San Francisco, CA. 24/7 seismic-ready plumbing, leak detection, and drain cleaning. Call (877) 792-1410!" />
-        <meta name="keywords" content="Plumber San Francisco CA San Francisco, San Francisco plumbers, emergency plumber San Francisco, water heater repair San Francisco, leak detection San Francisco" />
-        <link rel="canonical" href="https://sf-plumbing-pros.com/" />
+        <title>Cast iron pipe replacement Westlake Village Westlake Village</title>
+        <meta name="description" content="Cast iron pipe replacement Westlake Village Westlake Village. Expert cast iron sewer line rehabilitation and replacement in Westlake Village, CA. Trenchless technology, pipe bursting, and master diagnostics. Call (877) 792-1410!" />
+        <meta name="keywords" content="Cast iron pipe replacement Westlake Village, Westlake Village cast iron plumbing, trenchless sewer repair Westlake Village, sewer line replacement Westlake Village" />
+        <link rel="canonical" href="https://westlake-pipe-pros.com/" />
 
         {/* JSON-LD schema for LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "SF Plumbing Pros",
-            "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80",
+            "name": "Westlake Village Pipe Pros",
+            "image": "https://images.unsplash.com/photo-1542013936693-884638332a53?auto=format&fit=crop&q=80",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
-              "addressLocality": "San Francisco",
+              "addressLocality": "Westlake Village",
               "addressRegion": "CA",
-              "postalCode": "94102",
+              "postalCode": "91361",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "37.7749",
-              "longitude": "-122.4194"
+              "latitude": "34.1458",
+              "longitude": "-118.8056"
             },
             "openingHours": "Mo-Su 00:00-23:59",
             "serviceArea": {
               "@type": "Place",
-              "name": "San Francisco, CA"
+              "name": "Westlake Village, CA"
             },
             "priceRange": "$$$",
-            "description": "Professional residential plumbing services in San Francisco, CA. We specialize in seismic safety valves, historic home pipe restoration, and master plumbing diagnostics."
+            "description": "Specialized cast iron pipe replacement and sewer line rehabilitation in Westlake Village, CA. We utilize trenchless technology to protect your property while restoring infrastructure."
           })}
         </script>
 
@@ -55,46 +55,46 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Residential Plumbing Services",
+            "serviceType": "Cast Iron Pipe Replacement",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "SF Plumbing Pros",
+              "name": "Westlake Village Pipe Pros",
               "telephone": "+18777921410"
             },
             "areaServed": {
               "@type": "Place",
-              "name": "San Francisco, CA"
+              "name": "Westlake Village, CA"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Plumbing Services",
+              "name": "Pipe Restoration Services",
               "itemListElement": [
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Seismic Shut-off Valve Installation"
+                    "name": "Trenchless Pipe Bursting"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Historic Victorian Pipe Restoration"
+                    "name": "CIPP Sewer Lining"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "High-Pressure Main Leak Detection"
+                    "name": "Cast Iron Descaling & Restoration"
                   }
                 },
                 {
                   "@type": "Offer",
                   "itemOffered": {
                     "@type": "Service",
-                    "name": "Emergency 24/7 San Francisco Plumbing"
+                    "name": "HD Camera Sewer Diagnostics"
                   }
                 }
               ]
@@ -103,11 +103,11 @@ const Index = () => {
         </script>
 
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Plumber San Francisco CA San Francisco - Expert Residential Plumbing" />
-        <meta property="og:description" content="Precision plumbing for the City by the Bay. Fast, seismic-ready, and mastercraft plumbing service for all SF neighborhoods." />
+        <meta property="og:title" content="Cast iron pipe replacement Westlake Village - Advanced Infrastructure Repair" />
+        <meta property="og:description" content="Expert cast iron sewer line replacement in Westlake Village. Trenchless technology and master plumbing diagnostics for high-end properties." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sf-plumbing-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://westlake-pipe-pros.com/" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1542013936693-884638332a53?auto=format&fit=crop&q=80" />
       </Helmet>
 
       <Header />
@@ -115,17 +115,17 @@ const Index = () => {
         <Hero
           title={
             <>
-              Plumber San Francisco CA San Francisco
-              <span className="block text-indigo-400 mt-2 text-2xl md:text-3xl italic">SF Plumbing Pros</span>
+              Cast iron pipe replacement Westlake Village
+              <span className="block text-orange-400 mt-2 text-2xl md:text-3xl italic">Westlake Village Pipe Pros</span>
             </>
           }
-          subtitle="San Francisco's premier master plumbers. We provide expert seismic-ready diagnostics, historic pipe restoration, and rapid emergency repairs. Professional Master Craftsmanship."
-          image="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2669&auto=format&fit=crop"
-          overlayImage="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&q=80"
+          subtitle="Westlake Village's trusted authority for cast iron sewer rehabilitation. We provide advanced trenchless replacement, pipe bursting, and precision diagnostics. Professional Infrastructure Quality."
+          image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2669&auto=format&fit=crop"
+          overlayImage="https://images.unsplash.com/photo-1518005020455-1678229b9f34?auto=format&fit=crop&q=80"
         />
         <Services />
         <WhyUs />
-        <SFPlumbingInfo />
+        <WestlakeVillagePipeInfo />
         <FAQ />
         <Contact />
         <RandomLinks />

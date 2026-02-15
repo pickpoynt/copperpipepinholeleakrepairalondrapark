@@ -2,24 +2,16 @@ import { ExternalLink } from "lucide-react";
 
 const links = [
   {
-    name: "Pipe Lining Technology",
-    url: "https://smokeodorremovalfromupholsterywhite.vercel.app/"
-  },
-  {
-    name: "Sewer Repair Standards",
-    url: "https://firedamagecleanupforlogcabinswhitef.vercel.app/"
-  },
-  {
-    name: "Trenchless Solutions",
-    url: "https://odorremovalafterwaterdamageiowacolo.vercel.app/"
-  },
-  {
-    name: "Dallas Plumbing",
+    name: "Dallas Plumber",
     url: "https://dallasplumber.vercel.app"
   },
   {
     name: "San Antonio Plumbing",
     url: "https://sanantonioplumbing.vercel.app"
+  },
+  {
+    name: "Plumber San Francisco CA",
+    url: "https://plumbersanfranciscoca.vercel.app/"
   }
 ];
 
