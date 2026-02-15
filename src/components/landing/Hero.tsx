@@ -24,15 +24,15 @@ const Hero = ({
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background Image with Unique Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src={image} alt="Hero Background" className="w-full h-full object-cover brightness-[0.4]" />
-        <div className="absolute inset-0 opacity-20 mix-blend-screen overflow-hidden">
+        <img src={image} alt="Hero Background" className="w-full h-full object-cover brightness-[0.3]" />
+        <div className="absolute inset-0 opacity-30 mix-blend-overlay overflow-hidden">
           <img
             src={overlayImage}
             alt="Atmospheric Overlay"
-            className="w-full h-full object-cover scale-150 animate-pulse transition-all duration-[14000ms]"
+            className="w-full h-full object-cover scale-150 animate-pulse transition-all duration-[20000ms]"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-950/98 via-blue-950/40 to-slate-950/95" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-blue-950/40 to-slate-900/80" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -67,20 +67,20 @@ const Hero = ({
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-12 border-t border-white/10 animate-fade-in-delay-3 uppercase tracking-widest text-[10px] font-bold">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center">
-                <Hammer className="w-6 h-6 text-blue-400" />
+              <div className="w-10 h-10 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center">
+                <Hammer className="w-6 h-6 text-orange-400" />
               </div>
               <span className="text-white">Master Plumbing</span>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center">
-                <ShieldCheck className="w-6 h-6 text-blue-400" />
+              <div className="w-10 h-10 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center">
+                <ShieldCheck className="w-6 h-6 text-orange-400" />
               </div>
               <span className="text-white">Seismic Safety</span>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center">
-                <Search className="w-6 h-6 text-blue-400" />
+              <div className="w-10 h-10 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center">
+                <Search className="w-6 h-6 text-orange-400" />
               </div>
               <span className="text-white">Drain Diagnostics</span>
             </div>
